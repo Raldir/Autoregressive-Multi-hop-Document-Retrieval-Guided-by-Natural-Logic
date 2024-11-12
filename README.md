@@ -10,8 +10,11 @@ jointly scores documents in the knowledge source and sentences from previously r
 
 Setup a new conda environment, e.g. python3.9 (tested only Python version 3.9):
 
+```bash
 conda create -n admiral python=3.9
 conda activate admiral
+```
+
 Then install AdMIRaL and all relevant dependencies:
 
 ```
@@ -73,6 +76,6 @@ This repository is a complete reimplementation of the original codebase and ther
 - Instead of using the [Stammbach retriever](https://github.com/dominiksinsaarland/document-level-FEVER) for FEVER, we use a T5-reranker. The retrieval scores on FEVER are thus slightly lower. However, using a T5-reranker makes the codebase more flexibility, e.g. to incorporate longer documents (as needed for datasets like FEVEROUS). Please reach out to me if you want the retrieval results for FEVER shown in the paper.
 - We only keep track of the top i=1 D^i_t document set at a given iteration. Since most evaluation metrics consider recall@k with k >> 1, we fill up with documents d_t selected in the current iteration. 
 
-# TODO
+### TODO
 - Detailed instructions for retrieval over text and tables for FEVEROUS
 - Instructions for training models
