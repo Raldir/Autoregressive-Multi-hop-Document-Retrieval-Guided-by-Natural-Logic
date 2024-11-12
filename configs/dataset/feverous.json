@@ -1,0 +1,9 @@
+{
+    "dataset": "feverous",
+    "annotation_path": "data/feverous/dev.jsonl",
+    "raw_document_path": "data/feverous/feverous_wikiv1.db",
+    "pyserini_document_path": "data/feverous/feverous-documents-pyserini",
+    "pyserini_index_path_pipeline": "data/feverous/feverous_wikiv1.db",
+    "genre_trie_path": "data/feverous/trie/genre_feverous_trie.pkl",
+    "genre_trie_completion_path": "data/feverous/trie/genre_feverous_trie_completion.pkl"
+}

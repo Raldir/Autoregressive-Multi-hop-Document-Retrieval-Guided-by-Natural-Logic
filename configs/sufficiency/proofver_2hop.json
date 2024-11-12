@@ -1,0 +1,8 @@
+{
+    "max_iterations": 2,
+    "enable_sufficiency_check": true,
+    "sufficiency_model_beam_size": 25,
+    "sufficiency_model_num_proofs": 3
+
+
+}

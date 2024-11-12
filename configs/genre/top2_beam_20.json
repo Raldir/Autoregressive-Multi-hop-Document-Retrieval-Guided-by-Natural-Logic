@@ -1,0 +1,8 @@
+{
+    "genre_init_num_retrieved_docs": 2,
+    "genre_init_num_beams": 5,
+    "genre_hop_num_beams": 20,
+    "genre_hop_num_sentences_context": 4,
+    "genre_hop_num_retrieved_docs": 2,
+    "genre_documents_merge_mode": "default"
+}

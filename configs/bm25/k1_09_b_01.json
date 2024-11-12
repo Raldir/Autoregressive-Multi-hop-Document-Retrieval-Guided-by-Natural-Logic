@@ -1,0 +1,5 @@
+{
+    "bm25_num_retrieved_docs": 100,
+    "bm25_document_k1": 0.9,
+    "bm25_document_b": 0.1
+}
