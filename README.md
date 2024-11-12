@@ -40,10 +40,10 @@ To download relevant FEVER data run the script:
 Then download relevant retrieval models to a folder `./models`. For convinience you can use the gdown command, installed as part of this repository:
 
 ```
-gdown --folder https://drive.google.com/drive/folders/1sObMn8YZ8GKxWUiRWMJqoMBnHRzASbKl?usp=sharing
-gdown --folder https://drive.google.com/drive/folders/1XxTTsYKJ89gLs-EUoSDdZH2nqd2BgGuy?usp=sharing
-gdown --folder https://drive.google.com/drive/folders/1xjdrxDF9ZZm3INhZ4O8S80yJc8mh70ZD?usp=sharing
-gdown --folder https://drive.google.com/drive/folders/1mUZ58Vh8k50a3iDYCgR8w4SSKw8fn2sk?usp=sharingring
+gdown --folder https://drive.google.com/drive/folders/1sObMn8YZ8GKxWUiRWMJqoMBnHRzASbKl?usp=sharing (Autoregressive retrieval)
+gdown --folder https://drive.google.com/drive/folders/1mUZ58Vh8k50a3iDYCgR8w4SSKw8fn2sk?usp=sharing (Reranker Iteration 0)
+gdown --folder https://drive.google.com/drive/folders/1XxTTsYKJ89gLs-EUoSDdZH2nqd2BgGuy?usp=sharing (Reranker Iteration 1)
+gdown --folder https://drive.google.com/drive/folders/1_nPGY2zMaRW_aYsJxygr_gEf-KhNzGOj?usp=sharing (Sufficiency model)
 ```
 
 ## Build Wikipedia Trie (FEVEROUS)
